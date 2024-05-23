@@ -60,10 +60,10 @@ search_row = f'NAME:("data analyst" OR "аналитик данных" OR "data 
 df_vacancies = get_all_vacancies(search_row)`
      
 
-# Мы можем работать с результатом поиска 
+`# Мы можем работать с результатом поиска 
 # Например, посмотреть сколько вакансий по требуемому опыту 
 df_groupby_experience = df_vacancies.groupby('experience')['id'].count()
-df_groupby_experience
+df_groupby_experience`
      
 
 `# Или сфильтровать вакансии с опытом и без 
