@@ -1,7 +1,4 @@
-import requests
-import json 
-import time 
-import pandas as pd
+
      
 Документация по Api HH: https://github.com/hhru/api
 
@@ -11,8 +8,12 @@ import pandas as pd
 
 В нашем примере такие методы это поиск id резюме и рассылка резюме. Поиск вакансий не требует регистрации.
 
-Поиск вакансии
+`import requests
+import json 
+import time 
+import pandas as pd`
 
+Поиск вакансии
 
 `# Функция вытаскивает вакансии по параметрам (постронично)
 def get_vacancies_per_page(page: int, search_row: str):
